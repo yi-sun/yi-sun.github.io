@@ -1,0 +1,26 @@
+h2 {
+  font-variant: small-caps;
+}
+
+p.bibitem {
+  margin: 20px;
+  text-indent: -20px;
+}
+
+.abstract a{
+    color: black;
+    outline: 0;  
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.abstract.hidden span{
+    display: none;
+}
+
+.navbar {
+    background-image: none;
+    background-color:rgba(0, 0, 0, 0);
+    border: 0;
+    margin-bottom: 0;
+}

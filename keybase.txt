@@ -1,0 +1,73 @@
+### Keybase proof
+
+I hereby claim:
+
+  * I am an admin of http://web.mit.edu/~yisun/www.
+  * I am yisun (https://keybase.io/yisun) on keybase.
+  * I have a public key whose fingerprint is 9652 D99F 6533 AEA6 B284
+  * 2D5C 26B7 2764 63C1 49DC
+
+To claim this, I am signing this object:
+
+```json
+{
+    "body": {
+        "key": {
+            "fingerprint": "9652d99f6533aea6b2842d5c26b7276463c149dc",
+            "host": "keybase.io",
+            "key_id": "26b7276463c149dc",
+            "uid": "98d7034457474fa3144d512a2fa1e300",
+            "username": "yisun"
+        },
+        "service": {
+            "hostname": "web.mit.edu/~yisun/www",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411530154,
+    "expire_in": 157680000,
+    "prev":
+    "a3ce66f7193f04aaf6cd760b76220de7302dab5bd59135bf8efb159ccc552b3e",
+    "seqno": 2,
+    "tag": "signature"
+}
+```
+
+with the PGP key whose fingerprint is
+[9652 D99F 6533 AEA6 B284  2D5C 26B7 2764 63C1
+49DC](https://keybase.io/yisun)
+(captured above as `body.key.fingerprint`), yielding the PGP signature:
+
+```
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMSotl09Jfmg5x3G0weeJTGEKNkerFZKyk+pVLKqVspOBVNpmXnpqUUF
+RZl5JUpWSpZmpkYplpZpZqbGxompiWZJRhYmRimmyUZmSeZG5mYmZsbJhiaWKclK
+OkoZ+cUgHUBjkhKLU/Uy84FiQE58ZgpQFIv6UrCEpUWKuYGxiYmpuYm5SVqisaGJ
+SYqpoVGiUVqiYaqxgQFIYXFqUV5ibipQdWVmcWmeUq2OElCoLDM5FeRgqFR6ZklG
+aRK6cl2o+pLKApBAeWpSPFRrfFJmXgrQr0AdZalFxZn5eUpWhkCVySWZIL2GJoaG
+psYGhqYmOkqpFQWZRanxmSAVpuZmFgZAoKNUUJRaBjQy0Tg51cwszdzQ0jjNwCQx
+Mc0sOcXczCDJ3MzIyCAl1dzYwCglMck0KcXU0tDYNCnNIjUtydDUMjk52dTUKMk4
+VQnkmcK8fCUrI6AzE9OBRhZnpucllpQWpSrVcnUyybAwMDIxsLEygaKLgYtTABaJ
+h1T5/7smtWXo/9b9cOms/xG2ld/mCIdHrs+1UPv67LPzW+3XfNtfiBencDea/bni
+eXV1dMii/TvTWZzbecyCurjTIlZO3WiwXVV5P8+3dVv+nX8+2yEkn2++zlyGlfsl
+jqTE8z7dembjhtijphPWvNmvGH2bV/CzTNTMvV+ufjY+wrevKHi7bOzph1zPD2rG
+Cz+x/iP7o+pt94vOiO8T15aqlog6HD680iCqcc2SEyd0qw2zb3ommv9SaU5Sij2h
+delxx/wctRn/Tj86vn7tQ95/xw91/PO4vfXILmUL9tfi2T/2Te7dJzHX6mJ5xDqd
+3nMLd1pZNhSwvefVcBZ6svbSIvVNvxo/C6tYHm/a6VuxznXRdqvayx3esYFzjB4J
+N50tUU7bOuPfTNabm+u/9Gj8Y1jb6DHl3Kf4MMOHM748KnjFwn0ozH3aZ4NlrpxH
+1m/84XHoweYknzzZ4xPKkzJEu6JK917OCfh/a9rydj+WAK76rT9jF3n8XzjPnfHp
+Zt7YjG3JaU++3ws0j53UHHp8w43rKV/YAuc91SpZP6t27bX+srpfsxhfmxw0SWOq
+DZ5v6irY+G7Ww4yZh02K7J+z76+a/WKW1Eujn5mxZuGN6p9F7QUXqfvzKvvWff2z
+K/7rjSvfy/aru8okVdREb9iyf/aae6t/fk9kPijyYf7HCUbn12WmKzw7cohZd83K
+Lyttti7snqarvZTx7y5rqYn7fAA=
+=5JHV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yisun

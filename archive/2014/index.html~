@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!--Mathjax-->
+<script type="text/javascript"
+ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+<meta name="keywords" content="Yi Sun" />
+<meta name="description" content="Yi Sun's Homepage" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Yi Sun</title>
+<link rel="stylesheet" type="text/css" href="asdf.css" />
+</head>
+
+<body>
+<h1>Yi Sun</h1>
+
+<h4>
+<script type = "text/javascript"> 
+  <!--
+     var p3 = "<tt>"
+     var p4 = "</tt>"
+     var p8 = 'y';
+     var p9 = 'isu';
+     var p10 = 'n [a';
+     var p11 = 't] math.';
+     var p12 = 'mit.edu';
+     document.write("Email: " + p3 + p8 + p9 + p10 + p11 + p12 + p4 +
+  "\n<br/>");
+     document.write("Office: E18-401L");
+   // -->
+</script>
+<br/>
+</h4>
+
+<h2>About Me</h2>
+
+<h4>I am a fourth-year graduate student in mathematics
+at <a href="http://www.mit.edu">MIT</a>, advised
+by <a href="http://math.mit.edu/~etingof">Pavel Etingof</a>.  I am
+  currently supported by the <a href="https://www.nsfgrfp.org">NSF</a>
+  Graduate Research Fellowship.<br/></h4>
+
+<h4>In 2010-2011, I completed
+  the <a href="http://www.maths.cam.ac.uk/postgrad/mathiii/">MASt in Mathematics</a> at
+the <a href="http://www.cam.ac.uk">University of Cambridge</a> supported
+  by the <a href="http://winstonchurchillfoundation.org/scholars.php">Churchill
+Scholarship</a>.  Before that, I graduated from <a href="http://www.harvard.edu">Harvard University</a> with an A.B. degree in
+  mathematics with a secondary field in
+  economics and an A.M. degree in mathematics.<br/></h4>
+
+<h4>  My research interests are in representation theory and integrable systems and their applications to probability and
+random matrices.</h4>
+
+<h2>Publications and Preprints</h2>
+
+<h3>Mathematics Research</h3>
+
+<p><b>A representation-theoretic proof of the branching rule for
+  Macdonald polynomials</b>, preprint
+  (2014). (<a href="papers/mac.pdf">pdf</a>) (<a href="http://arxiv.org/abs/1412.0714">arXiv</a>)<br/>
+We give a new representation-theoretic proof of the branching rule for
+  Macdonald polynomials using the Etingof-Kirillov Jr. expression for
+  Macdonald polynomials as traces of intertwiners of \(U_q(\mathfrak{gl}_n)\). In the
+  Gelfand-Tsetlin basis, we show that diagonal matrix elements of such
+  intertwiners are given by application of Macdonald's operators to a
+  simple kernel. An essential ingredient in the proof is a map between
+  spherical parts of double affine Hecke algebras of different ranks
+  based upon the Dunkl-Kasatani conjecture.
+</p>
+
+<p><b>A new integral formula for Heckman-Opdam
+  hypergeometric functions</b>, preprint (2014). (<a href="papers/ho.pdf">pdf</a>)
+  (<a href="http://arxiv.org/abs/1406.3772">arXiv</a>) <br/>
+We provide formulas for the multivariate Bessel functions and
+  Heckman-Opdam hypergeometric functions as representation-valued
+  integrals over dressing orbits. Our expression is the quasi-classical
+  limit of the realization of Macdonald polynomials as traces of
+  intertwiners of quantum groups given by Etingof and Kirillov Jr. Integration over the Liouville tori of the Gelfand-Tsetlin integrable system and adjunction for higher Calogero-Moser Hamiltonians relates our expression to the integral realization over Gelfand-Tsetlin polytopes which appeared in the recent work of Borodin and Gorin on the beta-Jacobi corners ensemble.
+</p>
+
+<p><b>Finite dimensional representations of the rational Cherednik
+  algebra for G_4</b>, Journal of Algebra <b>323</b> (2010),
+  2864-2887. (<a href="papers/cherednik.pdf">pdf</a>)
+  (<a href="http://arxiv.org/abs/0910.5527">arXiv</a>) (<a href="http://dx.doi.org/10.1016/j.jalgebra.2009.11.040">journal</a>) <br/>
+In this paper, we study representations of the rational Cherednik algebra associated to the complex reflection group \(G_4\). In particular, we classify the irreducible finite dimensional representations and compute their characters.
+</p>
+
+<h3>Other Research</h3>
+
+<p><b>Metric recovery from directed unweighted graphs</b> (with
+  <a href="http://web.mit.edu/thashim/www/index.html">T. Hashimoto</a> and <a href="http://people.csail.mit.edu/tommi/">T. Jaakkola</a>), NIPS Workshop on Networks 2014, AISTATS
+  2015. (<a href="http://arxiv.org/abs/1411.5720">arXiv</a>) <br/>
+We analyze directed, unweighted graphs obtained from \(x_i \in \mathbb{R}^d\) by connecting
+  vertex \(i\) to \(j\) iff \(|x_i−x_j| &lt; \varepsilon(x_i)\). Examples of such graphs include
+  \(k\)-nearest neighbor graphs, where \(\varepsilon(x_i)\) varies from point to point,
+  and, arguably, many real world graphs such as co-purchasing graphs. We
+  ask whether we can recover the underlying Euclidean metric \(\varepsilon(x_i)\) and
+  the associated density \(p(x_i)\) given only the directed graph and \(d\). 
+We show that consistent recovery is possible up to isometric scaling
+  when the vertex degree is at least \(\omega(n^{2/(2+d)}\log(n)^{d/(d+2)})\). Our
+  estimator is based on a careful characterization of a random walk over
+  the directed graph and the associated continuum limit. As an
+  algorithm, it resembles the PageRank centrality metric. We demonstrate
+  empirically that the estimator performs well on simulated examples as
+  well as on real-world co-purchasing graphs even with a small number of
+  points and degree scaling as low as \(\log(n)\).
+</p>
+
+
+<p><b>Axiomatic attribution for multilinear functions</b> (with
+  <a href="http://research.google.com/pubs/MukundSundararajan.html">M. Sundararajan</a>),
+  ACM Conference on Electronic Commerce (2011),
+  177-178. (<a href="papers/attribution2.pdf">pdf</a>)
+  (<a href="http://arxiv.org/abs/1102.0989">arXiv</a>) (<a href="papers/attribution-ec11.pdf">Extended Abstract</a>) (<a href="http://dl.acm.org/authorize?436315">ACM</a>) <br/>
+We study the attribution problem, that is, the problem of attributing a
+  change in the value of a characteristic function to its independent
+  variables. We make three contributions. First, we propose a
+  formalization of the problem based on a standard cost sharing
+  model. Second, we show that there is a unique attribution method that
+  satisfies Dummy, Additivity, Conditional Nonnegativity, Affine Scale
+  Invariance, and Anonymity for all characteristic functions that are
+  the sum of a multilinear function and an additive function. We term
+  this the Aumann-Shapley-Shubik method. Conversely, we show that such a
+  uniqueness result does not hold for characteristic functions outside
+  this class. Third, we study multilinear characteristic functions in
+  detail; we describe a computationally efficient implementation of the
+  Aumann-Shapley-Shubik method and discuss practical applications to
+  pay-per-click advertising and portfolio analysis.</p>
+
+<h2>Math Olympiad Lecture Notes</h2>
+
+<!--<p><b>51st International Mathematical Olympiad</b> (with Z. Feng and
+  P. Loh), Mathematics Magazine, 83 (2010), pp. 320-323. (<a href="papers/imo2010.pdf">.pdf</a>)<br/>
+Summary of the problems and solutions of the 2010 IMO.</p>
+-->
+<h4>
+  These notes are for lectures given to high school students at the Math
+  Olympiad Program during the summers of 2007-2010 and 2012-2014.<br/>
+</h4>
+
+<ul>
+  <li>Complex Numbers in Geometry (<a href="notes/complex.pdf">.pdf</a>)<br/></li>
+  
+  <li>Tricks in Trigonometry
+    (<a href="notes/trigtricks.pdf">.pdf</a>)<br/></li>
+  
+  <li>Polynomials
+(<a href="notes/polynomials.pdf">.pdf</a>)<br/></li>
+  
+  <li>Combinatorial Sums
+    (<a href="notes/combsums.pdf">.pdf</a>)<br/></li>
+  
+  <li>Smoothing, Fudging, and Ordering
+(<a href="notes/inequalities.pdf">.pdf</a>)<br/></li>
+</ul>
+
+<h2>Links</h2>
+<p><a href="http://math.mit.edu/~yisun/infdim/index.html">MIT Infinite-Dimensional
+  Algebra Seminar</a> (ongoing)</p>
+<p><a href="ipsseminar.html">Learning seminar on
+  Interacting Particle Systems</a> (2012-2013)</p>
+
+<h5> I stole the format for this website from <a href="http://math.uchicago.edu/~jpwang">Jonathan Wang</a>.</h5>
+
+<h5>  <a href="http://validator.w3.org/check?uri=referer"><img
+							 src="http://www.w3.org/Icons/valid-xhtml10"
+							 alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</h5>
+
+<script type="text/javascript">
+  <!--  
+     var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20931778-1']);
+  _gaq.push(['_trackPageview']);
+  
+  (function() {
+  var ga = document.createElement('script'); ga.type =
+    'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+  'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(ga, s);
+  })();
+// -->
+</script>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+  var sc_project=8064775;
+  var sc_invisible=1;
+  var sc_security="1b384f03";
+  </script>
+<script type="text/javascript"
+	src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="custom counter"
+				      href="http://statcounter.com/free-hit-counter/"
+				      ><img class="statcounter"
+							   src="http://c.statcounter.com/8064775/0/1b384f03/1/"
+							   alt="custom
+				      counter"></img></a></div></noscript>
+  <!-- End of StatCounter Code for Default Guide -->
+
+</body>
+</html>

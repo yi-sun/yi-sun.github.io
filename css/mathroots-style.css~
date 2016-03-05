@@ -1,0 +1,8 @@
+h2 {
+  font-variant: small-caps;
+}
+
+p.bibitem {
+  margin: 20px;
+  text-indent: -20px;
+}

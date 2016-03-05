@@ -1,0 +1,20 @@
+You can check your Math 154 homework grades here by entering your password. Let me know immediately if 
+there are any discrepancies!  <br><br>
+
+<form action='gradesview.php?id=' method='GET'>Enter your password: <input type='text' name='id'> <input type='submit' value='Submit'></form>
+
+<br>
+Thanks to Dennis Sun for providing the code for this website.
+<br>
+<br>
+<br>
+
+<a href="/solutions/pset4.pdf">Problem Set 4 Solutions</a> [Posted 03.13.09] <br>
+<a href="/solutions/pset5.pdf">Problem Set 5 Solutions</a> [Posted 03.20.09]<br>
+<a href="/solutions/pset6.pdf">Problem Set 6 Solutions</a> [Posted 04.04.09]<br>
+<a href="/solutions/pset7.pdf">Problem Set 7 Solutions</a> [Posted
+04.17.09]<br>
+<a href="/solutions/pset8.pdf">Problem Set 8 Solutions</a> [Posted 04.28.09]<br>
+
+</body>
+

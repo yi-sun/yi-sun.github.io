@@ -1,0 +1,76 @@
+body {
+    color: #000000;
+    background: #FFFFFF;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 95%;
+    font-family: Georgia, Serif;
+}
+A:active {
+    color: #ff0000;
+}   
+A:visited {
+    color: #000050;
+}   
+A:link {
+    color: #000099;
+}   
+A:hover {
+    color: #cc0000;
+}
+TT {
+    font-family: "Courier New", "Andale Mono", "Monotype.com", "Lucida Console", monospace;
+}
+h1, h2, h3{
+
+    position:relative;
+
+}
+
+h4 {
+    margin-top: 0%;
+    margin-left: .5%;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: .3%;
+}
+h5 { font-weight: normal;}
+p {
+
+    margin-left: 2%;
+
+    margin-top: 0%;
+
+    margin-bottom: .7%;
+
+    font-style: normal;
+
+}
+
+
+h1 {
+
+    font-size: 225%;
+    margin-bottom: .5%;
+    font-variant: small-caps;
+
+}
+
+
+
+h2 {
+
+    font-size: 150%;
+}
+
+
+
+h3 {
+
+    font-size: 120%;
+
+    font-style: normal;
+    margin-left: .5%;
+    margin-bottom: 1%;
+
+}
