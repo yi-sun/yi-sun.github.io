@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Burning man ticket loader</title>
+  </head>
+  <body>
+    Enter your unique url starting with "http://mandrillapp.com/track/click/":<br/> <input type="text" id="unique_code" width="1000" style="width:1200px"></input>
+    <p />
+    <div style="display: none" id="text-holder">
+      In <span id="time_left"></span> you will be redirected to:<br/> <span id="url"></span>
+      <p />
+      Notes:
+      <ul>
+        <li>Make sure your clock is accurate or you might get redirected too soon or too late
+        <li>If this is not the active tab when the sale opens, you might be redirected up to 1 second late
+      </ul>
+    </div>
+    <script lang="javascript">
+      var sale_date = Date.parse("2017-03-29T11:59:58-07:00");
+      var base_url = "";
+      var url;
+      var first_box_char = true;
+
+      document.getElementById("unique_code").onkeyup = function (e) {
+        url = base_url + e.target.value;
+        document.getElementById("url").innerText = url;
+        if (first_box_char) {
+          check_time();
+          update_time();
+          setInterval(update_time, 1000);
+          document.getElementById("text-holder").style.display = "block";
+        }
+        first_box_char = false;
+      };
+
+      function check_time() {
+        var now = Date.now();
+        var diff = sale_date - now;
+        if (diff <= 0) {
+          location = url;
+        } else {
+          setTimeout(check_time, diff / 2);
+        }
+      }
+
+      function update_time() {
+        var now = Date.now();
+        var diff_secs = (sale_date - now) / 1000;
+        var hours = Math.trunc(diff_secs / 60 / 60);
+        var minutes = Math.trunc((diff_secs - hours * 60 * 60) / 60);
+        var secs = Math.trunc(diff_secs - hours * 60 * 60 - minutes * 60)
+        var time_left_elem = document.getElementById("time_left");
+        time_left_elem.innerText = hours.toString() + " hours, " + minutes.toString() + " minutes, " + secs.toString() + " seconds";
+      }
+    </script>
+  </body>
+</html>
