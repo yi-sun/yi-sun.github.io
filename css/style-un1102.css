@@ -1,0 +1,38 @@
+h2 {
+  margin-top: 0px;
+  padding-top:0px;
+}
+
+p.bibitem {
+  margin: 20px;
+  text-indent: -20px;
+}
+
+.abstract a{
+    color: black;
+    outline: 0;  
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+.abstract.hidden span{
+    display: none;
+}
+
+.navbar {
+    border: 0;
+    margin-bottom: 0;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 70px;
+  padding-bottom: 20px;
+}
