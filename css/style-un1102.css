@@ -3,6 +3,11 @@ h2 {
   padding-top:0px;
 }
 
+html, body {
+  font-family: "Droid Sans", sans-serif;
+}
+
+
 p.bibitem {
   margin: 20px;
   text-indent: -20px;
@@ -27,7 +32,7 @@ p.bibitem {
 /* Customize container */
 @media (min-width: 768px) {
   .container {
-    max-width: 700px;
+    max-width: 750px;
   }
 }
 
