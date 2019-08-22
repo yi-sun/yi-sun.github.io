@@ -225,13 +225,14 @@ We study global fluctuations for singular values of \(M\)-fold products of sever
       <h2>computer science research</h2>
 
       <p><a href="https://ddkang.github.io/">D. Kang</a>\(^*\), <b>Y. Sun</b>\(^*\),
-        <a href="https://scholar.google.com/citations?user=RLvsC94AAAAJ&hl=en">T. Brown</a>,
-	<a href="https://people.eecs.berkeley.edu/~hendrycks/">D. Hendrycks</a>, and
+	<a href="https://people.eecs.berkeley.edu/~hendrycks/">D. Hendrycks</a>,
+	<a href="https://scholar.google.com/citations?user=RLvsC94AAAAJ&hl=en">T. Brown</a>, and
 	<a href="https://www.stat.berkeley.edu/~jsteinhardt/">J. Steinhardt</a>,
-	<b>Transfer of adversarial robustness between perturbation types</b> (<a href="https://arxiv.org/abs/1905.01034">arXiv</a>)
+	<b>Testing robustness against unforeseen adversaries</b> (<a href="https://arxiv.org/abs/1908.08016">arXiv</a>)
 	<span class="abs-non"><br/>
 	  <span class="abstract">
-	    We study the transfer of adversarial robustness of deep neural networks between different perturbation types. While most work on adversarial examples has focused on \(L_\infty\) and \(L_2\)-bounded perturbations, these do not capture all types of perturbations available to an adversary. The present work evaluates 32 attacks of 5 different types against models adversarially trained on a 100-class subset of ImageNet. Our empirical results suggest that evaluating on a wide range of perturbation sizes is necessary to understand whether adversarial robustness transfers between perturbation types. We further demonstrate that robustness against one perturbation type may not always imply and may sometimes hurt robustness against other perturbation types. In light of these results, we recommend evaluation of adversarial defenses take place on a diverse range of perturbation types and sizes.
+	    Considerable work on adversarial defense has studied robustness to a fixed, known family of adversarial distortions, most frequently L_p-bounded distortions. In reality, the specific form of attack will rarely be known and adversaries are free to employ distortions outside of any fixed set. The present work advocates measuring robustness against this much broader range of unforeseen attacks---attacks whose precise form is not known when designing a defense.<br/><br/>
+We propose a methodology for evaluating a defense against a diverse range of distortion types together with a summary metric UAR that measures the Unforeseen Attack Robustness against a distortion. We construct novel JPEG, Fog, Gabor, and Snow adversarial attacks to simulate unforeseen adversaries and perform a careful study of adversarial robustness against these and existing distortion types. We find that evaluation against existing L_p attacks yields highly correlated information that may not generalize to other attacks and identify a set of 4 attacks that yields more diverse information. We further find that adversarial training against either one or multiple distortions, including our novel ones, does not confer robustness to unforeseen distortions. These results underscore the need to study robustness against unforeseen distortions and provide a starting point for doing so.
       </span></span></p>
       
       <p><a href="https://thashim.github.io/">T. Hashimoto</a>, <b>Y. Sun</b>,
