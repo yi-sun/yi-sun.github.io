@@ -271,6 +271,15 @@ We study global fluctuations for singular values of \(M\)-fold products of sever
 
       <h2>computer science research</h2>
 
+      <p><a href="https://ddkang.github.io/">D. Kang\(^*\)</a>, <a href="https://scholar.google.com/citations?user=4UvZdF8AAAAJ&hl=en">J. Guibas\(^*\)</a>, <a href="http://www.bailis.org/">P. Bailis</a>, <a href="https://thashim.github.io/">T. Hashimoto</a>, <b>Y. Sun</b>, <a href="https://cs.stanford.edu/~matei/">M. Zaharia</a>,
+        <b>Accelerating Approximate Aggregation Queries with Expensive Predicates</b>, VLDB 2021. (<a href="https://vldb.org/pvldb/vol14/p2341-kang.pdf">proceedings</a>)
+	<span class="abs-non"><br/>
+	  <span class="abstract">
+            Researchers and industry analysts are increasingly interested in computing aggregation queries over large, unstructured datasets with selective predicates that are computed using expensive deep neural networks (DNNs). As these DNNs are expensive and because many applications can tolerate approximate answers, analysts are interested in accelerating these queries via approximations. Unfortunately, standard approximate query processing techniques to accelerate such queries are not applicable because they assume the result of the predicates are available ahead of time. Furthermore, recent work using cheap approximations (i.e., proxies) do not support aggregation queries with predicates.<br/> <br/>
+            
+To accelerate aggregation queries with expensive predicates, we develop and analyze a query processing algorithm that leverages proxies (ABae). ABae must account for the key challenge that it may sample records that do not satisfy the predicate. To address this challenge, we first use the proxy to group records into strata so that records satisfying the predicate are ideally grouped into few strata. Given these strata, ABae uses pilot sampling and plugin estimates to sample according to the optimal allocation. We show that ABae converges at an optimal rate in a novel analysis of stratified sampling with draws that may not satisfy the predicate. We further show that ABae outperforms on baselines on six real-world datasets, reducing labeling costs by up to 2.3x.
+      </span></span></p>
+      
       <p><a href="https://hanin.princeton.edu">B. Hanin</a>\(^*\) and <b>Y. Sun</b>\(^*\),
         <b>Data augmentation as stochastic optimization</b>. (<a href="https://arxiv.org/abs/2010.11171">arXiv</a>)
 	<span class="abs-non"><br/>
