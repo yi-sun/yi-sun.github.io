@@ -270,6 +270,15 @@ We study global fluctuations for singular values of \(M\)-fold products of sever
 </span></span></p>
 
       <h2>computer science research</h2>
+      
+      <p><a href="https://hanin.princeton.edu">B. Hanin</a>\(^*\) and <b>Y. Sun</b>\(^*\),
+        <b>How Data Augmentation affects Optimization for Linear Regression</b>, NeurIPS 2021. (<a href="https://arxiv.org/abs/2010.11171">arXiv</a>)
+	<span class="abs-non"><br/>
+	  <span class="abstract">
+	    Though data augmentation has rapidly emerged as a key tool for optimization in modern machine learning, a clear picture of how augmentation schedules affect optimization and interact with optimization hyperparameters such as learning rate is nascent. In the spirit of classical convex optimization and recent work on implicit bias, the present work analyzes the effect of augmentation on optimization in the simple convex setting of linear regression with MSE loss.<br/><br/>
+
+We find joint schedules for learning rate and data augmentation scheme under which augmented gradient descent provably converges and characterize the resulting minimum. Our results apply to arbitrary augmentation schemes, revealing complex interactions between learning rates and augmentations even in the convex setting. Our approach interprets augmented (S)GD as a stochastic optimization method for a time-varying sequence of proxy losses. This gives a unified way to analyze learning rate, batch size, and augmentations ranging from additive noise to random projections. From this perspective, our results, which also give rates of convergence, can be viewed as Monro-Robbins type conditions for augmented (S)GD. 
+      </span></span></p>
 
       <p><a href="https://ddkang.github.io/">D. Kang\(^*\)</a>, <a href="https://scholar.google.com/citations?user=4UvZdF8AAAAJ&hl=en">J. Guibas\(^*\)</a>, <a href="http://www.bailis.org/">P. Bailis</a>, <a href="https://thashim.github.io/">T. Hashimoto</a>, <b>Y. Sun</b>, <a href="https://cs.stanford.edu/~matei/">M. Zaharia</a>,
         <b>Accelerating Approximate Aggregation Queries with Expensive Predicates</b>, VLDB 2021. (<a href="https://vldb.org/pvldb/vol14/p2341-kang.pdf">proceedings</a>) (<a href="https://arxiv.org/abs/2108.06313">arXiv</a>)
@@ -280,13 +289,6 @@ We study global fluctuations for singular values of \(M\)-fold products of sever
 To accelerate aggregation queries with expensive predicates, we develop and analyze a query processing algorithm that leverages proxies (ABae). ABae must account for the key challenge that it may sample records that do not satisfy the predicate. To address this challenge, we first use the proxy to group records into strata so that records satisfying the predicate are ideally grouped into few strata. Given these strata, ABae uses pilot sampling and plugin estimates to sample according to the optimal allocation. We show that ABae converges at an optimal rate in a novel analysis of stratified sampling with draws that may not satisfy the predicate. We further show that ABae outperforms on baselines on six real-world datasets, reducing labeling costs by up to 2.3x.
       </span></span></p>
       
-      <p><a href="https://hanin.princeton.edu">B. Hanin</a>\(^*\) and <b>Y. Sun</b>\(^*\),
-        <b>Data augmentation as stochastic optimization</b>. (<a href="https://arxiv.org/abs/2010.11171">arXiv</a>)
-	<span class="abs-non"><br/>
-	  <span class="abstract">
-            We present a theoretical framework recasting data augmentation as stochastic optimization for a sequence of time-varying proxy losses. This provides a unified approach to understanding techniques commonly thought of as data augmentation, including synthetic noise and label-preserving transformations, as well as more traditional ideas in stochastic optimization such as learning rate and batch size scheduling. We prove a time-varying Monro-Robbins theorem with rates of convergence which gives conditions on the learning rate and augmentation schedule under which augmented gradient descent converges. Special cases give provably good joint schedules for augmentation with additive noise, minibatch SGD, and minibatch SGD with noise.
-      </span></span></p>
-
       <p><a href="https://ddkang.github.io/">D. Kang</a>\(^*\), <b>Y. Sun</b>\(^*\),
 	<a href="https://people.eecs.berkeley.edu/~hendrycks/">D. Hendrycks</a>,
 	<a href="https://scholar.google.com/citations?user=RLvsC94AAAAJ&hl=en">T. Brown</a>, and
@@ -385,7 +387,7 @@ We propose a methodology for evaluating a defense against a diverse range of dis
 	    The convergent evolution of the fly and mouse olfactory system led us to ask whether the anatomic connectivity and functional logic of olfactory circuits would evolve in artificial neural networks trained to perform olfactory tasks. Artificial networks trained to classify odor identity recapitulate the connectivity inherent in the olfactory system. Input units are driven by a single receptor type, and units driven by the same receptor converge to form a glomerulus. Glomeruli exhibit sparse, unstructured connectivity onto a larger expansion layer of Kenyon cells. When trained to both classify odor identity and to impart innate valence onto odors, the network develops independent pathways for identity and valence classification. Thus, the defining features of fly and mouse olfactory systems also evolved in artificial neural networks trained to perform olfactory tasks. This implies that convergent evolution reflects an underlying logic rather than shared developmental principles.</span></span></p>
 
       <h2>presentations</h2>
-      <p><b>2021:</b> UChicago (x2), Integrability in Conformal Probability (online), Simons Foundation, Luminy, Princeton</p>
+      <p><b>2021:</b> UChicago (x2), Integrability in Conformal Probability (online), Simons Foundation, Luminy, Princeton, NeurIPS</p>
       <p><b>2020:</b> UChicago, UW Madison, Google X, Bernoulli-IMS One World Symposium, DeepMath 2020, NeurIPS OPT 2020 Workshop</p>
       <p><b>2019:</b> UCSD, Virginia, OpenAI, ICML Workshop on Uncertainty and Robustness in Deep Learning, AMS Western Sectional Meeting</p>
       <p><b>2018:</b> Simons Society of Fellows Retreat, Yale</p>
