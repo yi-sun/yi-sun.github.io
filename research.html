@@ -80,7 +80,7 @@ We show that the Fisher information matrix transitions from resembling that of a
       </p>
 
       
-      <p><b>Probabilistic conformal blocks for Liouville CFT on the torus</b> (with <a href="http://stat.columbia.edu/department-directory/name/promit-ghosal/">P. Ghosal</a>, <a href="https://www.math.columbia.edu/~remy/">G. Remy</a>, and <a href="http://www.math.columbia.edu/~xinsun/">X. Sun</a>), Duke Math Journal, to appear (2022). (<a href="papers/20200924-liouville.pdf">pdf</a>) (<a href="https://arxiv.org/abs/2003.03802">arXiv</a>) (<a href="https://upenn.zoom.us/rec/share/YGvigl5U3FwDSZETMFC2cm3OpQQJlN7bK9AQsfkr8foBLDtYn5j_cDSONXWZzf-Q.F1kzvk_FWATKVnwH?startTime=1633361520000">video</a>)
+      <p><b>Probabilistic conformal blocks for Liouville CFT on the torus</b> (with <a href="http://stat.columbia.edu/department-directory/name/promit-ghosal/">P. Ghosal</a>, <a href="https://www.math.columbia.edu/~remy/">G. Remy</a>, and <a href="http://www.math.columbia.edu/~xinsun/">X. Sun</a>), Duke Math Journal <b>173</b> (2024), 1085-1175. (<a href="papers/20200924-liouville.pdf">pdf</a>) (<a href="https://arxiv.org/abs/2003.03802">arXiv</a>) (<a href="https://upenn.zoom.us/rec/share/YGvigl5U3FwDSZETMFC2cm3OpQQJlN7bK9AQsfkr8foBLDtYn5j_cDSONXWZzf-Q.F1kzvk_FWATKVnwH?startTime=1633361520000">video</a>)
 	<span class="abs-non"><br/>
 	  <span class="abstract">
 	    Virasoro conformal blocks are a family of important functions defined as power series via the Virasoro algebra. They are a fundamental input to the conformal bootstrap program for 2D conformal
@@ -270,6 +270,32 @@ We study global fluctuations for singular values of \(M\)-fold products of sever
 </span></span></p>
 
       <h2>computer science research</h2>
+      <p><a href="https://openreview.net/profile?id=~Suppakit_Waiwitlikhit3">S. Waiwitlikhit</a>, <a href="https://people.eecs.berkeley.edu/~istoica/">I. Stoica</a>, <b>Y. Sun</b>, <a href="https://thashim.github.io/">T. Hashimoto</a>, and <a href="https://ddkang.github.io">D. Kang</a>,
+        <b>Trustless Audits without Revealing Data or Models</b>, ICML 2024. (<a href="https://arxiv.org/abs/2404.04500">arXiv</a>)
+	<span class="abs-non"><br/>
+	  <span class="abstract">
+	    There is an increasing conflict between business incentives to hide models and data as trade secrets, and the societal need for algorithmic transparency. For example, a rightsholder wishing to know whether their copyrighted works have been used during training must convince the model provider to allow a third party to audit the model and data. Finding a mutually agreeable third party is difficult, and the associated costs often make this approach impractical.<br/><br/>
+	    
+In this work, we show that it is possible to simultaneously allow model providers to keep their model weights (but not architecture) and data secret while allowing other parties to trustlessly audit model and data properties. We do this by designing a protocol called ZkAudit in which model providers publish cryptographic commitments of datasets and model weights, alongside a zero-knowledge proof (ZKP) certifying that published commitments are derived from training the model. Model providers can then respond to audit requests by privately computing any function F of the dataset (or model) and releasing the output of F alongside another ZKP certifying the correct execution of F. To enable ZkAudit, we develop new methods of computing ZKPs for SGD on modern neural nets for simple recommender systems and image classification models capable of high accuracies on ImageNet. Empirically, we show it is possible to provide trustless audits of DNNs, including copyright, censorship, and counterfactual audits with little to no loss in accuracy.
+      </span></span></p> 
+      
+      <p><a href="https://ddkang.github.io">D. Kang</a>, <a href="https://thashim.github.io/">T. Hashimoto</a>, <a href="https://people.eecs.berkeley.edu/~istoica/">I. Stoica</a>, and <b>Y. Sun</b>,
+        <b>ZK-IMG: Attested Images via Zero-Knowledge Proofs to Fight Disinformation</b>, preprint, 2022. (<a href="https://arxiv.org/abs/2211.04775">arXiv</a>)
+	<span class="abs-non"><br/>
+	  <span class="abstract">
+	    Over the past few years, AI methods of generating images have been increasing in capabilities, with recent breakthroughs enabling high-resolution, photorealistic "deepfakes" (artificially generated images with the purpose of misinformation or harm). The rise of deepfakes has potential for social disruption. Recent work has proposed using ZK-SNARKs (zero-knowledge succinct non-interactive argument of knowledge) and attested cameras to verify that images were taken by a camera. ZK-SNARKs allow verification of image transformations non-interactively (i.e., post-hoc) with only standard cryptographic hardness assumptions. Unfortunately, this work does not preserve input privacy, is impractically slow (working only on 128×128 images), and/or requires custom cryptographic arguments.<br/><br/>
+	    
+To address these issues, we present zk-img, a library for attesting to image transformations while hiding the pre-transformed image. zk-img allows application developers to specify high level image transformations. Then, zk-img will transparently compile these specifications to ZK-SNARKs. To hide the input or output images, zk-img will compute the hash of the images inside the ZK-SNARK. We further propose methods of chaining image transformations securely and privately, which allows for arbitrarily many transformations. By combining these optimizations, zk-img is the first system to be able to transform HD images on commodity hardware, securely and privately.
+      </span></span></p> 
+      
+      <p><a href="https://ddkang.github.io">D. Kang</a>, <a href="https://thashim.github.io/">T. Hashimoto</a>, <a href="https://people.eecs.berkeley.edu/~istoica/">I. Stoica</a>, and <b>Y. Sun</b>,
+        <b>Scaling up Trustless DNN Inference with Zero-Knowledge Proofs</b>, preprint, 2022. (<a href="https://arxiv.org/abs/2210.08674">arXiv</a>)
+	<span class="abs-non"><br/>
+	  <span class="abstract">
+	    As ML models have increased in capabilities and accuracy, so has the complexity of their deployments. Increasingly, ML model consumers are turning to service providers to serve the ML models in the ML-as-a-service (MLaaS) paradigm. As MLaaS proliferates, a critical requirement emerges: how can model consumers verify that the correct predictions were served, in the face of malicious, lazy, or buggy service providers?<br/><br/>
+	    
+In this work, we present the first practical ImageNet-scale method to verify ML model inference non-interactively, i.e., after the inference has been done. To do so, we leverage recent developments in ZK-SNARKs (zero-knowledge succinct non-interactive argument of knowledge), a form of zero-knowledge proofs. ZK-SNARKs allows us to verify ML model execution non-interactively and with only standard cryptographic hardness assumptions. In particular, we provide the first ZK-SNARK proof of valid inference for a full resolution ImageNet model, achieving 79\% top-5 accuracy. We further use these ZK-SNARKs to design protocols to verify ML model execution in a variety of scenarios, including for verifying MLaaS predictions, verifying MLaaS model accuracy, and using ML models for trustless retrieval. Together, our results show that ZK-SNARKs have the promise to make verified ML model inference practical.
+      </span></span></p>      
       
       <p><a href="https://hanin.princeton.edu">B. Hanin</a>\(^*\) and <b>Y. Sun</b>\(^*\),
         <b>How Data Augmentation affects Optimization for Linear Regression</b>, NeurIPS 2021. (<a href="https://arxiv.org/abs/2010.11171">arXiv</a>)
@@ -382,11 +408,12 @@ We propose a methodology for evaluating a defense against a diverse range of dis
 
       <p><a href="https://pwang724.github.io/">P. Y. Wang</a>, <b>Y. Sun</b>, <a href="https://zuckermaninstitute.columbia.edu/richard-axel-md">R. Axel</a>, <a href="https://zuckermaninstitute.columbia.edu/larry-f-abbott-phd">L. F. Abbott</a>, and <a href="http://guangyuyang.org/">G. R. Yang</a>,
 	<b>Evolving the olfactory system with machine learning</b>,
-        Neuron, in press, 2021. (<a href="https://doi.org/10.1016/j.neuron.2021.09.010">journal</a>)
+        Neuron <b>109</b> (23), 3879-3892. (<a href="https://doi.org/10.1016/j.neuron.2021.09.010">journal</a>)
 	<span class="abs-non"><br/><span class="abstract">
 	    The convergent evolution of the fly and mouse olfactory system led us to ask whether the anatomic connectivity and functional logic of olfactory circuits would evolve in artificial neural networks trained to perform olfactory tasks. Artificial networks trained to classify odor identity recapitulate the connectivity inherent in the olfactory system. Input units are driven by a single receptor type, and units driven by the same receptor converge to form a glomerulus. Glomeruli exhibit sparse, unstructured connectivity onto a larger expansion layer of Kenyon cells. When trained to both classify odor identity and to impart innate valence onto odors, the network develops independent pathways for identity and valence classification. Thus, the defining features of fly and mouse olfactory systems also evolved in artificial neural networks trained to perform olfactory tasks. This implies that convergent evolution reflects an underlying logic rather than shared developmental principles.</span></span></p>
 
       <h2>presentations</h2>
+      <p><b>2022:</b> IAS</p>
       <p><b>2021:</b> UChicago (x2), Integrability in Conformal Probability (online), Simons Foundation, Luminy, Princeton, NeurIPS</p>
       <p><b>2020:</b> UChicago, UW Madison, Google X, Bernoulli-IMS One World Symposium, DeepMath 2020, NeurIPS OPT 2020 Workshop</p>
       <p><b>2019:</b> UCSD, Virginia, OpenAI, ICML Workshop on Uncertainty and Robustness in Deep Learning, AMS Western Sectional Meeting</p>
